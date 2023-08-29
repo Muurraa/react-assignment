@@ -1,0 +1,294 @@
+.boxBorderBox {
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inlineBlock {
+    display: inline-block;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+.flex5 {
+    flex: 5;
+}
+
+.flex6 {
+    flex: 6;
+}
+
+.flex7 {
+    flex: 7;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-space-around {
+    justify-content: space-around;
+}
+
+.j-space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-content-start {
+    align-content: start;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.marginTop5 {
+    margin-top: 5px;
+}
+
+.marginBot5 {
+    margin-bottom: 5px;
+}
+
+.border1 {
+    border: 1px solid black;
+}
+
+.marginLeft5 {
+    margin-left: 5px;
+}
+
+.marginRight5 {
+    margin-right: 5px;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.pad5 {
+    padding: 5px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.font30 {
+    font-size: 30px;
+}
+.font40{
+    font-size: 40px;
+}
+
+.cursorP {
+    cursor: pointer;
+}
+
+
+/*!*********!*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectPhase {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/3a/5e/d0/3a5ed058b2aab108e8b81c39b7da9e5e.jpg");
+    background-size: 100% 100%;
+}
+
+.selectPhase button {
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.figures img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.gamePhase {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2019/08/21/05/24/vintage-4420182_640.jpg");
+    background-size: 100% 100%;
+}
+
+.board {
+    border: 1px solid black;
+    margin: 5px;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sellButton {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.block {
+    height: 100%;
+    width: 12.5%;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.block1 {
+    height: 100%;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.middleBlock {
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+
+.colorBox {
+    height: 40%;
+    width: 80%;
+    background-color: yellow;
+}
+
+.boardButtonBuy {
+    padding: 2px 15px 2px 15px;
+    cursor: pointer;
+    border: none;
+    transition: 1s;
+}
+
+
+.rollButton {
+    padding: 5px 25px 5px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.dice {
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+   font-size: 30px;
+}
+
+.ownedStreet {
+    height: 75px;
+}
+
+.ownedStreets {
+    max-height: 60%;
+    width: 75%;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.playerTab img {
+    height: 75px;
+    width: 75px;
+}
+
+.playerFigure {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    top: 12px;
+}
+.cursorNot-allowed{
+    cursor: not-allowed;
+}
+.colorWhite{
+    color: white;
+}
+.middleSide, .topSide, .bottomSide p{
+    font-weight: bold;
+}
+.bgRed{
+    background-color: red;
+}
+.startDiv{
+    font-size: 25px;
+}
+
+
